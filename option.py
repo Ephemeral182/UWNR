@@ -20,19 +20,19 @@ parser.add_argument('--crop_size_test',type=str,default=256,help='Takes effect w
 
 parser.add_argument('--epoch', type=int, default=0, help='starting epoch')
 parser.add_argument('--n_epochs', type=int, default=200, help='number of epochs of training')
-parser.add_argument('--bs', type=int, default=18, help='size of the batches')
+parser.add_argument('--bs', type=int, default=16, help='size of the batches')
 parser.add_argument('--lr', type=float, default=0.0002, help='initial learning rate')
 parser.add_argument('--decay_epoch', type=int, default=100,
 					help='epoch to start linearly decaying the learning rate to 0')
 parser.add_argument('--input_nc', type=int, default=3, help='number of channels of input data')
 parser.add_argument('--output_nc', type=int, default=3, help='number of channels of output data')
 
-parser.add_argument('--model_store',type=str,default='/mnt/data/csx/Documents/cvpr2022w_underwater/train_models/',help='the path to save model') 
+parser.add_argument('--model_store',type=str,default='./train_models/',help='the path to save model') 
 parser.add_argument('--model_name',type=str,default='UWNR')
 
-parser.add_argument('--tensorboardX_path',type=str,default='/mnt/data/csx/Documents/cvpr2022w_underwater/runs/',help='the path to save tensorboardX') 
+parser.add_argument('--tensorboardX_path',type=str,default='./runs/',help='the path to save tensorboardX') 
 
-parser.add_argument('--train_save_path',type=str,default='/mnt/data/csx/Documents/cvpr2022w_underwater/train_out',help='the path to save generation underwater image')
+parser.add_argument('--train_save_path',type=str,default='./train_out',help='the path to save generation underwater image')
 parser.add_argument('--clean_img_path',type=str,default='/mnt/data/csx/Documents/underwater_generation2022/NYU_test/NYU_GT/',help='the path of saving clean image')
 parser.add_argument('--depth_img_path',type=str,default='/mnt/data/csx/Documents/underwater_generation2022/NYU_test/NYU_depth/',help='the path of saving depth image')
 parser.add_argument('--underwater_path',type=str,default='/mnt/data/csx/Documents/dataset/UIEB/',help='the path of saving real underwater image')
