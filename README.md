@@ -50,7 +50,7 @@ python3  -m torch.distributed.launch --master_port 42563 --nproc_per_node 2 trai
 ```
 ## Generating Stage 
 
-You can download pre-trained model from [Baidu Cloud]() and save them in model_path.
+You can download pre-trained model from [Baidu Cloud](https://pan.baidu.com/s/1PA6sMo8MIr4HcaPOm6A15g) &nbsp; **Password:42w9** and save it in model_path.
 
 Run the following commands:
 ```python
