@@ -1,5 +1,3 @@
-# UWNR
-
 # Underwater Light Field Retention : Neural Rendering for Underwater Imaging (UWNR) (Accepted by CVPR2022 Workshop)
 **<font size=5>Authors:</font>** **Tian Ye\*, Sixiang Chen\*, Yun Liu, Erkang Chen\**, Yi Ye, Yuche Li**
 
@@ -13,14 +11,17 @@
 &emsp;&emsp; Compared with existing underwater image generation methods, UWNR utilizes the natural light field to simulate the main characteristics ofthe underwater scene. Thus, it is able to synthesize a wide variety ofunderwater images from one clean image with various realistic underwater images.
 &nbsp;  
 &emsp;&emsp;  Extensive experiments demonstrate that our approach achieves better visual effects and quantitative metrics over previous methods. Moreover, we adopt UWNR to build an open Large Neural Rendering Underwater Dataset containing various types ofwater quality, dubbed LNRUD.</font>*
+##
+<p align='center'>
+<img src="https://github.com/Ephemeral182/UWNR/blob/master/figure/framework4.png#pic_right" width="80%" ></img>
 
-![1649767279060.png](./img/1649767279060.png)
+
 ## Installation 
------
+
 + python3 
 + Pytorch 1.9.0
 + NVDIA 2080TI GPU + CUDA 11.4
-+ Apex 0.1
++ NVIDIA Apex 0.1
 + tensorboardX(optional)
 
 ## Large Neural Rendering Underwater Dataset (LNRUD)
