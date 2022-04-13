@@ -16,7 +16,7 @@
 
 ![1649767279060.png](./img/1649767279060.png)
 ## Installation 
-
+-----
 + python3 
 + Pytorch 1.9.0
 + NVDIA 2080TI GPU + CUDA 11.4
