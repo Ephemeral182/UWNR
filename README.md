@@ -1,8 +1,8 @@
 # Underwater Light Field Retention : Neural Rendering for Underwater Imaging (UWNR) (Accepted by CVPR2022 Workshop)
-**<font size=5>Authors:</font>** **Tian Ye\*, Sixiang Chen\*, Yun Liu, Erkang Chen\**, Yi Ye, Yuche Li**
+**<font size=5>Authors:</font>** **Tian Ye<span>&#8224;</span>, Sixiang Chen<span>&#8224;</span>, Yun Liu, Erkang Chen\*, Yi Ye, Yuche Li**
 
-+ **\***  &nbsp;&ensp; represents equal contributions.
-+ **\****  &ensp;represents corresponding author.
++ **<span>&#8224;</span>**  &ensp;represents equal contributions.
++ **\***  &ensp;represents corresponding author.
 <br>
 
 [<font size=4>Paper Download</font>](https://arxiv.org/pdf/2203.11006.pdf)   &emsp; [<font size=4>Code Download</font>](https://github.com/Ephemeral182/UWNR)
