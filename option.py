@@ -43,8 +43,8 @@ parser.add_argument("--local_rank", default=-1, type=int)
 opt = parser.parse_args()
 
 if not os.path.exists(opt.model_store):
- 	os.mkdir(opt.model_store)
+ 	os.makedirs(opt.model_store,exist_ok=True)
 if not os.path.exists(opt.model_store+opt.model_name):
- 	os.mkdir(opt.model_store+opt.model_name)
+ 	os.makedirs(opt.model_store+opt.model_name,exist_ok=True)
 opt.model_dir = opt.model_store + opt.model_name+ '/'
 print(opt.model_dir)
