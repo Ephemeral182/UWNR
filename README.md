@@ -51,7 +51,9 @@ python3  -m torch.distributed.launch --master_port 42563 --nproc_per_node 2 trai
 ```
 ## Generating Stage 
 
-You can download pre-trained model from [Baidu Cloud](https://pan.baidu.com/s/1PA6sMo8MIr4HcaPOm6A15g) &nbsp; **Password:42w9** and save it in model_path.
+You can download pre-trained model from [Baidu Cloud](https://pan.baidu.com/s/1PA6sMo8MIr4HcaPOm6A15g) &nbsp; **Password:42w9** and save it in model_path. The Depth Net refers to [MegaDepth](https://github.com/zhengqili/MegaDepth) and we use the [depth pre-trained model](https://pan.baidu.com/s/1h1qx0Ju7UbyXpjxi2zKeag) &nbsp; **Password:mzqa**
+
+--来自百度网盘超级会员V5的分享) from them 
 
 Run the following commands:
 ```python
