@@ -1,4 +1,4 @@
-# Underwater Light Field Retention : Neural Rendering for Underwater Imaging (UWNR) (Accepted by CVPR2022 Workshop)
+# Underwater Light Field Retention : Neural Rendering for Underwater Imaging (UWNR) 
 **<font size=5>Authors:</font>** **Tian Ye<span>&#8224;</span>, Sixiang Chen<span>&#8224;</span>, Yun Liu, Erkang Chen\*, Yi Ye, Yuche Li**
 
 + **<span>&#8224;</span>**  &ensp;represents equal contributions.
