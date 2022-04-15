@@ -47,7 +47,7 @@ Put real underwater images as FID_gt in fid_gt_path.
 
 Run the following commands:
 ```python
-python3  -m torch.distributed.launch --master_port 42563 --nproc_per_node 2 train_ddp.py --resume=True --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path
+python3  -m torch.distributed.launch --master_port 42563 --nproc_per_node 2 train_ddp.py --resume=True --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path --model_name UWNR
 ```
 ## Generating Stage 
 
@@ -55,7 +55,7 @@ You can download pre-trained model from [Baidu Cloud](https://pan.baidu.com/s/1P
 
 Run the following commands:
 ```python
-python3  test.py --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path --model_path model_path --model_name UWNR
+python3  test.py --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path --model_path model_path 
 ```
 The rusults are saved in ./out/
 ## Citation 
