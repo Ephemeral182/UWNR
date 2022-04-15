@@ -16,10 +16,12 @@
 <img src="https://github.com/Ephemeral182/UWNR/blob/master/figure/framework4.png#pic_center" width="80%" ></img>
 
 
-## Installation 
+## Experiment Environment
 
 + python3 
 + Pytorch 1.9.0
++ Numpy 1.19.5
++ Opencv 4.5.5.62
 + NVDIA 2080TI GPU + CUDA 11.4
 + NVIDIA Apex 0.1
 + tensorboardX(optional)
@@ -67,3 +69,4 @@ The rusults are saved in ./out/
   year={2022}
 }
 ```
+If you have any questions, please contact the email 282542428@qq.com or 201921114013@jmu.edu.cn
