@@ -55,7 +55,7 @@ You can download pre-trained model from [Baidu Cloud](https://pan.baidu.com/s/1P
 
 Run the following commands:
 ```python
-python3  test.py --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path --model_path model_path
+python3  test.py --clean_img_path clean_img_path --depth_img_path depth_img_path --underwater_path underwater_path --fid_gt_path fid_gt_path --model_path model_path --model_name UWNR
 ```
 The rusults are saved in ./out/
 ## Citation 
