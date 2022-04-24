@@ -61,7 +61,7 @@ python3  test.py --clean_img_path clean_img_path --depth_img_path depth_img_path
 ```
 The rusults are saved in ./out/
 ## Correction
-The computation and inferencing runtime of rendering is 138.13GMac/0.026s when the image size is 1024×1024
+The computation and inferencing runtime of rendering is 138.13GMac/0.026s when the image size is 1024×1024.
 ## Citation 
 ```Bibtex
 @article{ye2022underwater,
