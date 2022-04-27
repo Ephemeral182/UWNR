@@ -5,7 +5,7 @@
 + **\***  &ensp;represents corresponding author.
 <br>
 
-[<font size=4>Paper Download</font>](https://arxiv.org/pdf/2203.11006.pdf)   &emsp; [<font size=4>Code Download</font>](https://github.com/Ephemeral182/UWNR)
+[<font size=4>Paper Download</font>](https://arxiv.org/abs/2203.11006v2)   &emsp; [<font size=4>Code Download</font>](https://github.com/Ephemeral182/UWNR)
 
 **Abstract:** *<font size=2>Underwater Image Rendering aims to generate a true-tolife underwater image from a given clean one, which could be applied to various practical applications such as underwater image enhancement, camera filter, and virtual gaming. We explore two less-touched but challenging problems in underwater image rendering, namely, i) how to render diverse underwater scenes by a single neural network? ii) how to adaptively learn the underwater light fields from natural exemplars, i,e., realistic underwater images? To this end, we propose a neural rendering method for underwater imaging, dubbed UWNR (Underwater Neural Rendering). Specifically, UWNR is a data-driven neural network that implicitly learns the natural degenerated model from authentic underwater images, avoiding introducing erroneous biases by hand-craft imaging models.&nbsp;  
 &emsp;&emsp; Compared with existing underwater image generation methods, UWNR utilizes the natural light field to simulate the main characteristics ofthe underwater scene. Thus, it is able to synthesize a wide variety ofunderwater images from one clean image with various realistic underwater images.
