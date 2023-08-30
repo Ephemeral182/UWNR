@@ -71,4 +71,4 @@ The computation and inferencing runtime of rendering is 138.13GMac/0.026s when t
   year={2022}
 }
 ```
-If you have any questions, please contact the email 282542428@qq.com or 201921114013@jmu.edu.cn
+If you have any questions, please contact the email ephemeral182@gmail.com or sixiangchen@hkust-gz.edu.cn
